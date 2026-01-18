@@ -1,0 +1,14 @@
+[
+  {
+    "id": 101,
+    "name": "Orientation Meet",
+    "datetime": "2026-01-20T17:00",
+    "desc": "Introductory meeting for new members"
+  },
+  {
+    "id": 102,
+    "name": "Tech Workshop",
+    "datetime": "2026-01-25T15:00",
+    "desc": "Hands-on session on web development"
+  }
+]

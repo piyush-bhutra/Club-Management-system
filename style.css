@@ -1,0 +1,44 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: Arial;
+  padding: 20px;
+}
+
+section {
+  background: #1e293b;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 6px;
+  background: #020617;
+  color: white;
+  border: 1px solid #334155;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 6px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#attendanceList div {
+  margin: 4px 0;
+}
+
+#attendanceStats {
+  margin: 10px 0;
+  padding: 8px;
+  background: #020617;
+  border-radius: 6px;
+}

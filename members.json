@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Mehta",
+    "reg": "23BCE1023",
+    "role": "Senior Core",
+    "contact": "9876543210"
+  },
+  {
+    "id": 2,
+    "name": "Riya Sharma",
+    "reg": "23BIT0456",
+    "role": "Junior Core",
+    "contact": "9123456789"
+  },
+  {
+    "id": 3,
+    "name": "Kunal Verma",
+    "reg": "23BDS0789",
+    "role": "Member",
+    "contact": "9988776655"
+  }
+]

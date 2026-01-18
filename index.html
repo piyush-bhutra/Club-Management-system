@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Club Management System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Club Management System</h1>
+
+  <section>
+    <h2>Add Member</h2>
+    <input id="mname" placeholder="Name">
+    <input id="mreg" placeholder="Registration Number">
+    <select id="mrole">
+      <option value="">Select Role</option>
+      <option>Senior Core</option>
+      <option>Junior Core</option>
+      <option>Member</option>
+      <option>Board</option>
+    </select>
+    <input id="mcontact" placeholder="Phone Number">
+    <button onclick="addMember()">Add</button>
+    <button onclick="clearMemberForm()">Clear</button>
+    <ul id="members"></ul>
+  </section>
+
+  <section>
+    <h2>Create Event</h2>
+    <input id="ename" placeholder="Event Name">
+    <input id="edatetime" type="datetime-local">
+
+    <input id="edesc" placeholder="Description">
+    <button onclick="addEvent()">Create</button>
+    <button onclick="clearEventForm()">Clear</button>
+    <ul id="events"></ul>
+  </section>
+
+  <section>
+    <h2>Attendance</h2>
+    <p>Select an event and mark attendance</p>
+    <select id="eventSelect" onchange="loadSavedAttendance()"></select>
+    <div id="attendanceStats"></div>
+    <div id="attendanceList"></div>
+    <button onclick="saveAttendance()">Save Attendance</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
